@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.20)
+project(oop)
+set(SOURCE_FILES src/main.cpp src/Movie.cpp src/Movies.cpp)
+include_directories(include)
+add_executable(oop ${SOURCE_FILES})

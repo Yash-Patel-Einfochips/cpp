@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.20)
+project(STL)
+set(SOURCE_FILES src/main.cpp src/students_data.cpp)
+include_directories(include)
+add_executable(STL ${SOURCE_FILES})
