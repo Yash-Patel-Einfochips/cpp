@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.20)
+project(MyApp)
+link_directories(../SharedLib ../StaticLib)
+add_executable(MyApp src/main.cpp)
+target_link_libraries(MyApp libSharedLib.a libStaticLib.a)
