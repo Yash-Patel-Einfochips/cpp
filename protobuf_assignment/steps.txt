@@ -1,0 +1,5 @@
+compile .proto file
+- protoc --cpp_out=. compile.proto
+
+compile source file
+- g++ main.cpp compile.pb.cc -o main -lprotobuf - lpthread
